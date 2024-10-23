@@ -1,0 +1,42 @@
+#container{
+    margin: 10px auto;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+#field {
+    /* fixed */
+    border: 1px solid red;
+    border-radius: 5px;
+    background-image: url(/img/field.jpg);
+    background-position: center;
+    background-size: cover; /* or contain, depending on your preference */
+    margin: 10px;
+    
+    /* variable */
+    width: 80%; /* or use max-width: 800px; */
+    height: 500px; /* consider using min-height or responsive units */
+}
+
+#controler{
+    display: flex;
+    gap: 3px;
+    margin: 10px;
+}
+
+#ball{
+    /* fixed */
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: lightblue;
+    position: relative;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: transform 0.1s linear;
+    
+    /* variable */
+    width: 50px;
+    height: 50px;
+}
